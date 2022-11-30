@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "podcast-analytics"
+version = "0.1.0"
+description = ""
+authors = ["Data Science Disciple <luklaszczuk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "podcast_analytics"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+youtube-transcript-api = "^0.5.0"
+jupyter = "^1.0.0"
+pydantic = "^1.10.2"
+python-youtube = "^0.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
